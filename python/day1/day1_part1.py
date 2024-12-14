@@ -5,7 +5,7 @@ numbers_col1 = []
 numbers_col2 = []
 
 
-with open("python/day1_input.txt", "r") as file:
+with open("python\day1\day1_input.txt", "r") as file:
     for line in file:
         # Split each line on whitespace and convert to integers
         num1, num2 = map(int, line.strip().split())
